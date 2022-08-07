@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Verdana';
+    background: #1B244A;
+    
+    max-width: 600px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 0px;
+    color: white;
+}
+
+#homeScore, #guestScore{
+    background: black;
+    color: #F94F6D;
+    height: 120px;
+    border-radius: 5px;
+    
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    
+    margin: 21px 0 21px 0; 
+}
+
+.points{
+    display: flex;
+    justify-content: space-between;
+}
+
+.points p{
+    font-family: 'Cursed Timer ULiL';
+    font-size: 25px;
+    font-weight: bolder;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    cursor: pointer;
+    
+    padding: 10px;
+    margin: 5px;
+}
+
+.points p:hover{
+    background: #2d3556;
+}
+
+button{
+    margin: 50px 60px;
+    padding: 10px 30px;
+    display: flex;
+    
+    background: #1B244A;
+    color: #9AABD8;
+    font-family: 'Cursed Timer ULiL';
+    font-size: 15px;
+    font-weight: bolder;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #2d3556;
+}
